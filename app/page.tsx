@@ -6,7 +6,7 @@ const fira = Fira_Sans({ subsets: ['latin'], weight: "400" });
 export default function Home() {
   return (
     <main>
-      <section className={styles.heroContainer}>
+      <div className={styles.heroContainer}>
         <img src="/tfc_logo.png" alt="TFC Logo" className={styles.heroImage} />
         <h1 className={`${fira.className} ${styles.heroTitle}`}>Tampa Furry Club</h1>
         <hr className={styles.heroHr}/>
@@ -17,10 +17,10 @@ export default function Home() {
         <a href="https://discord.gg/vq2q3qnynG">
           <button className={`${fira.className} ${styles.discordButton}`}>
             Join on Discord
-            <img src="/discord.png" className={styles.discordIcon}></img>
+            <img src="/discord.png" alt="" className={styles.discordIcon}></img>
           </button>
         </a>
-      </section>
+      </div>
     </main>
   )
 }

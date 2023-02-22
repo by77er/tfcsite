@@ -18,7 +18,7 @@
 }
 
 .heroTitle {
-  font-size: 70px;
+  font-size: 3rem;
 }
 
 .heroHr {
@@ -28,7 +28,7 @@
 }
 
 .heroDesc {
-  font-size: 20px;
+  font-size: 1.3rem;
   opacity: 0.8;
 }
 
