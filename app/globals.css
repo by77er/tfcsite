@@ -19,7 +19,7 @@ body {
 }
 
 body {
-  background-color: rgb(var(--main-color));
+  background-color: var(--main-color);
 }
 
 a {
