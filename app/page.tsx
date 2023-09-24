@@ -9,7 +9,6 @@ export default function Home() {
       <div className={styles.heroContainer}>
         <img src="/tfc_logo.png" alt="TFC Logo" className={styles.heroImage} />
         <h1 className={`${fira.className} ${styles.heroTitle}`}>Tampa Furry Club</h1>
-        <hr className={styles.heroHr}/>
         <p className={`${fira.className} ${styles.heroDesc}`}>
           Looking to meet furries in Tampa, FL? Here we are.
         </p>
