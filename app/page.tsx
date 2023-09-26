@@ -8,12 +8,20 @@ export default function Home() {
         <p className={`${styles.heroDesc}`}>
           Looking for furries in Tampa?
         </p>
-        <a href="https://discord.gg/vq2q3qnynG">
-          <button className={`${styles.discordButton}`}>
-            Join Our Discord!
-            <img src="/discord.png" alt="" className={styles.discordIcon}></img>
-          </button>
-        </a>
+        <div className={`${styles.flexContainer}`}>
+          <a href="https://discord.gg/vq2q3qnynG">
+            <button className={`${styles.linkButton} ${styles.discordButton}`}>
+              Discord Server
+              <img src="/discord.png" alt="" className={styles.buttonIcon}></img>
+            </button>
+          </a>
+          <a href="https://t.me/+8ID4Z2VpbadlZmUx">
+            <button className={`${styles.linkButton} ${styles.telegramButton}`}>
+              Telegram Feed
+              <img src="/telegram.png" alt="" className={styles.buttonIcon}></img>
+            </button>
+          </a>
+        </div>
       </div>
     </main>
   )
