@@ -28,6 +28,6 @@ body {
   background-color: var(--main-color);
 }
 
-a {
+a, button {
   all: unset;
 }
