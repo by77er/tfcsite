@@ -3,7 +3,7 @@ export default function Head() {
     <>
       <title>Tampa Furry Club</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Tampa Furry Club Website" />
+      <meta name="description" content="Looking for furries in Tampa, FL? Here we are." />
       <link rel="icon" href="/favicon.ico" />
     </>
   )
