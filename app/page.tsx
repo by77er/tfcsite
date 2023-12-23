@@ -11,13 +11,13 @@ export default function Home() {
         <div className={`${styles.flexContainer}`}>
           <a href="https://discord.gg/vq2q3qnynG">
             <button className={`${styles.linkButton} ${styles.discordButton}`}>
-              Discord Server
+              <span>Discord Server</span>
               <img src="/discord.png" alt="" className={styles.buttonIcon}></img>
             </button>
           </a>
           <a href="https://t.me/+8ID4Z2VpbadlZmUx">
             <button className={`${styles.linkButton} ${styles.telegramButton}`}>
-              Telegram Feed
+              <span>Telegram Feed</span>
               <img src="/telegram.png" alt="" className={styles.buttonIcon}></img>
             </button>
           </a>
